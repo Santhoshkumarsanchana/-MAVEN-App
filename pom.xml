@@ -4,7 +4,13 @@
   <groupId>in.ssk</groupId>
   <artifactId>-MAVEN-App</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version><!-- Source: https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>7.0.6</version>
+    <scope>compile</scope>
+</dependency>
   <name>-MAVEN-App</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -14,5 +20,6 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
   </dependencies>
 </project>
